@@ -1,0 +1,14 @@
+name: FreezePlugin
+version: 1.0
+main: ru.freeze.FreezePlugin
+api-version: '1.21'
+author: TvoyNick
+description: Плагин для заморозки игроков
+commands:
+  freeze:
+    description: Заморозить игрока
+    usage: /freeze <ник> <время_в_секундах>
+permissions:
+  freeze.use:
+    description: Позволяет использовать команду /freeze
+    default: op
